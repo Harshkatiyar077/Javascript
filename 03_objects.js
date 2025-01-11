@@ -1,7 +1,11 @@
-// singleton
-// Object.create
+we can declare object as litrals and as constructors
 
-// object literals
+
+// singleton 
+when we make any constructor of it, then can create a singleton object, means only one object
+// Object.create ( it is constructor method)
+
+// object literals ( it will never be singleton)
 
 const mySym = Symbol("key1")
 
@@ -9,7 +13,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
+    [mySym]: "mykey1",     symbol like this its data type will be symbol
     age: 18,
     location: "Jaipur",
     email: "hitesh@google.com",
@@ -17,14 +21,17 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
+
+mostly we access objects using . but in some cases we need to use [].
+
 // console.log(JsUser.email)
 // console.log(JsUser["email"])
 // console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+// console.log(JsUser[mySym])   we can access it as a symbol like this its data type will be symbol
 
-JsUser.email = "hitesh@chatgpt.com"
-// Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
+JsUser.email = "hitesh@chatgpt.com"   can overwrite the value
+// Object.freeze(JsUser)   we are locking the value it cant be changed now
+JsUser.email = "hitesh@microsoft.com" 
 // console.log(JsUser);
 
 JsUser.greeting = function(){
