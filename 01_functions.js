@@ -1,4 +1,4 @@
-
+//creation  of function 
 function sayMyName(){
     console.log("H");
     console.log("I");
@@ -22,6 +22,8 @@ function addTwoNumbers(number1, number2){
     return number1 + number2
 }
 
+//no code lines will be executed once return is executed inside function
+
 const result = addTwoNumbers(3, 5)
 
 // console.log("Result: ", result);
@@ -38,12 +40,16 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 // console.log(loginUserMessage("hitesh"))
 
+//if we will not give any username then it will return undefined
+
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
+
+//here output will be like [500, 2000] as function is returning only num1
 
 const user = {
     username: "hitesh",
@@ -55,13 +61,15 @@ function handleObject(anyobject){
 }
 
 // handleObject(user)
+//it is how we fetch multiple values from object
+
 handleObject({
     username: "sam",
     price: 399
 })
 
 const myNewArray = [200, 400, 100, 600]
-
+//it is how we pass array to function 
 function returnSecondValue(getArray){
     return getArray[1]
 }
