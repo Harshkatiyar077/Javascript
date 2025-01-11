@@ -1,3 +1,7 @@
+
+//In java script variables are very powerful, it can hold anything like function object etc
+
+
 //var c = 300
 let a = 300
 if (true) {
@@ -7,7 +11,7 @@ if (true) {
     
 }
 
-
+// in case of var its scope is not limited to function, which creates problems
 
 // console.log(a);
 // console.log(b);
@@ -27,6 +31,11 @@ function one(){
 
 }
 
+//inside browser core scope and in node in coding environment globle scope is different
+
+
+//we can access globals inside any local scope or functions
+
 // one()
 
 if (true) {
@@ -43,8 +52,14 @@ if (true) {
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
+//In java script variables are very powerful, it can hold anything like function object etc
 
-console.log(addone(5))
+//there is a concept of hoisting go through that
+
+
+console.log(addone(5))    
+
+//in this way of function declaration it is able to access fuction even if its declared in later lines
 
 function addone(num){
     return num + 1
@@ -52,7 +67,9 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5)          
+//in this way of function declaration it is not able to access fuction if its declared in later lines, and will give error
+//here we are declaring the funtion and holding it in a variable
 const addTwo = function(num){
     return num + 2
 }
