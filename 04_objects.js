@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object()    it's a singleton obeject
+const tinderUser = {}   its a non singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -24,9 +24,9 @@ const obj2 = {3: "a", 4: "b"}
 const obj4 = {5: "a", 6: "b"}
 
 // const obj3 = { obj1, obj2 }
-// const obj3 = Object.assign({}, obj1, obj2, obj4)
+// const obj3 = Object.assign({}, obj1, obj2, obj4)   (to add two objects)
 
-const obj3 = {...obj1, ...obj2}
+const obj3 = {...obj1, ...obj2}  ( using spread operator to add)
 // console.log(obj3);
 
 
@@ -43,14 +43,14 @@ const users = [
         id: 1,
         email: "h@gmail.com"
     },
-]
+]   (puttin objects inside array)
 
 users[1].email
 // console.log(tinderUser);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));  will give the keys as array
+// console.log(Object.values(tinderUser));  values
+// console.log(Object.entries(tinderUser)); entries = key and value
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
