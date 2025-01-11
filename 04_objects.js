@@ -52,7 +52,9 @@ users[1].email
 // console.log(Object.values(tinderUser));  values
 // console.log(Object.entries(tinderUser)); entries = key and value
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));  it will return boolean value
+
+
 
 
 const course = {
@@ -63,10 +65,18 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+destructuring/---
+    
+const {courseInstructor: instructor} = course //here to get a value from course object we are destructuring it, we 
+
+//can directly mention instructor to access courseInsructor instead of using . each time.
 
 // console.log(courseInstructor);
 console.log(instructor);
+
+//here below is the object without name which is a json format, in which key and value both are strings
+//API's are mostly in this json format or in array format
+
 
 // {
 //     "name": "hitesh",
