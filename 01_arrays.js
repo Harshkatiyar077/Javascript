@@ -12,19 +12,27 @@ const myArr2 = new Array(1, 2, 3, 4)
 // myArr.push(7)
 // myArr.pop()
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9)  will add the value on top or starting
+// myArr.shift()  will remove the value from start
 
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(3));
+// console.log(myArr.includes(9)); will tell the if that element exist or not(boolean output as true or false)
+// console.log(myArr.indexOf(3));  will give index number if that number exist in array
 
-// const newArr = myArr.join()
+// const newArr = myArr.join() it will combine all values and will change it in string
+console.log(typeof newArr); it will be string
 
-// console.log(myArr);
+
+// console.log(myArr);  
 // console.log( newArr);
 
 
-// slice, splice
+
+// slice, splice -- slice excludes the last mentioned index,
+
+** splice changes the original array fetching the mentioned index items
+
+
+
 
 console.log("A ", myArr);
 
