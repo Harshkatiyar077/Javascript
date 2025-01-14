@@ -1,7 +1,7 @@
 // if
 const isUserloggedIn = true
 const temperature = 41
-
+  //  '===' it checks equality and data type as well
 // if ( temperature === 40 ){
 //     console.log("less than 50");
 // } else {
@@ -23,7 +23,7 @@ const temperature = 41
 
 // const balance = 1000
 
-// if (balance > 500) console.log("test"),console.log("test2");
+// if (balance > 500) console.log("test"),console.log("test2");   it is implixit declaration and should not be followed.
 
 // if (balance < 500) {
 //     console.log("less than 500");
