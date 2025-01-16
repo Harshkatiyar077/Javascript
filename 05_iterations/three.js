@@ -1,7 +1,7 @@
 // for of
 
-// ["", "", ""]
-// [{}, {}, {}]
+// ["", "", ""]  strings inside array
+// [{}, {}, {}]  objects inside array
 
 const arr = [1, 2, 3, 4, 5]
 
@@ -16,7 +16,7 @@ for (const greet of greetings) {
 
 // Maps
 
-const map = new Map()
+const map = new Map()  //its an  object which holds key value pairs, but it remembers insertion order as well. it does not hold any duplicate values.
 map.set('IN', "India")
 map.set('USA', "United States of America")
 map.set('Fr', "France")
@@ -37,4 +37,4 @@ const myObject = {
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value);
     
-// }
+// }    WE cant apply loops on objects like this
