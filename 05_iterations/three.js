@@ -37,4 +37,10 @@ const myObject = {
 // for (const [key, value] of myObject) {
 //     console.log(key, ':-', value);
     
-// }    WE cant apply loops on objects like this
+// }    WE cant apply forof loops on objects like this
+
+
+
+// Objects are not iterable that's why we use for in to access objects properties. it is also because objects does not hold any sequence like maps.
+
+// for in loop works on  properties not on indexes
