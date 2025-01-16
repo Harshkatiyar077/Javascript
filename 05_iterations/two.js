@@ -5,6 +5,8 @@ let index = 0
 //     index = index + 2
 // }
 
+//it is important to learn array in loops
+
 let myArray = ['flash', "batman", "superman"]
 
 let arr = 0
