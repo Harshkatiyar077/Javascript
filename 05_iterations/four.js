@@ -29,3 +29,6 @@ map.set('IN', "India")
 for (const [key, value] of map) {
     console.log(key, ':-', value);
 }
+
+
+// for of works with direct values while for in works on properties or indexes
