@@ -41,6 +41,6 @@ const myObject = {
 
 
 
-// Objects are not iterable that's why we use for in to access objects properties. it is also because objects does not hold any sequence like maps.
-
-// for in loop works on  properties not on indexes
+// Objects are not iterable that's why we use for in loop to access objects properties. it is also because objects does not hold any sequence like maps.
+// there is an inbuilt funtion .iteration which is by default added in some elements like array , string etc which makes them iterable, but its not in object.
+// for in loop works ,mainly on  properties not on indexes
