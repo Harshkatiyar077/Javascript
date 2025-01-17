@@ -8,6 +8,8 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
 // } )
 
+//arrow function uses lexical this, it takes this from its parent
+
 // function printMe(item){
 //     console.log(item);     //here we are declaring function 
 // }
