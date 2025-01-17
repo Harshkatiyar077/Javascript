@@ -4,22 +4,29 @@
 // const values = coding.forEach( (item) => {
 //     //console.log(item);
 //     return item
-// } )
+// } )                                              //here we are not able to return any value 
 
 // console.log(values);
 
+
+//we can use filter to return values.
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+
+//Important
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
-// } )
+// } )                                              //here we used {} thats why we have to use return . in case of without parenthesis or with () there's no need to use return.
 
+
+
+//how we can return values using for each loop.
 // const newNums = []
 
 // myNums.forEach( (num) => {
 //     if (num > 4) {
 //         newNums.push(num)
-//     }
+//     }                                           //using if to return values in for each loop
 // } )
 
 // console.log(newNums);
@@ -40,6 +47,9 @@ const books = [
   let userBooks = books.filter( (bk) => bk.genre === 'History')
 
   userBooks = books.filter( (bk) => { 
-    return bk.publish >= 1995 && bk.genre === "History"
+    return bk.publish >= 1000 && bk.genre === "History"
 })
   console.log(userBooks);
+
+
+                                                         //like this we fetch details from database
