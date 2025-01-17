@@ -4,7 +4,7 @@
 // const values = coding.forEach( (item) => {
 //     //console.log(item);
 //     return item
-// } )                                              //here we are not able to return any value 
+// } )                                              //here we are not able to return any value using simple for each
 
 // console.log(values);
 
@@ -51,5 +51,7 @@ const books = [
 })
   console.log(userBooks);
 
-
-                                                         //like this we fetch details from database
+                                                         //keep in mind filter and map returns the values, 
+                                                         // filter is used filtered values while map is used to return all values with out filtering
+                                                         
+                                                         // this is how we fetch details from database

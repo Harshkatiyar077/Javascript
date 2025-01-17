@@ -8,16 +8,16 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(item);
 // } )
 
-//arrow function uses lexical this, it takes this from its parent
+                                        //arrow function uses lexical this, it takes this from its parent
 
 // function printMe(item){
-//     console.log(item);     //here we are declaring function 
+//     console.log(item);             //here we are declaring function 
 // }
 
-//   coding.forEach(printMe)  //here we are passing call back function, not have to write () just pass function name (reference)
+//   coding.forEach(printMe)          //here we are passing call back function, not have to write () just pass function name (reference)
 
 // coding.forEach( (item, index, arr)=> {
-//     console.log(item, index, arr);  here we can see this dont get only value but it also have access to index and full array
+//     console.log(item, index, arr);            // here we can see this foreach dont get only value but it also have access to index and full array
 // } )
 
 const myCoding = [
